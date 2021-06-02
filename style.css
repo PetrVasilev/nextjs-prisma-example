@@ -1,0 +1,44 @@
+.app {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.app .view {
+    max-width: 600px;
+    width: 100%;
+}
+
+@media (max-width: 630px) {
+    .app .view {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-btn {
+    margin-left: 10px;
+}
+
+.todos {
+    margin-top: 15px;
+}
+
+.todos .todo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.done input {
+    margin-right: 10px;
+}
